@@ -5,7 +5,10 @@
 ##############################
 
 CC = g++
-NAME = boost_test
+NAME = boost_test 
+# change NAME varialbe to the desired filename to be executed 
+# for example: you want to run lexical_cast.cpp
+# change // boost_test to lexical_cast //
 
 
 $(NAME): $(NAME).cpp
